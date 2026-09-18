@@ -75,7 +75,7 @@
         this.tree = tree;
 
         var scale = scale || 1
-        var color = '#d4af37';
+        var color = '#ec4899';
 
         this.heart = {
             point  : point,
@@ -457,7 +457,7 @@
             var ctx = s.tree.ctx;
             ctx.save();
         	ctx.beginPath();
-        	ctx.fillStyle = '#3a3a3a';
+        	ctx.fillStyle = '#4c1d95';
             // ctx.shadowColor = 'rgb(35, 31, 32)';
             ctx.shadowBlur = 2;
         	ctx.moveTo(p.x, p.y);
@@ -471,7 +471,7 @@
     Bloom = function(tree, point, figure, color, alpha, angle, scale, place, speed) {
         this.tree = tree;
         this.point = point;
-        this.color = color || (function(p){ return p[random(0, p.length - 1)]; })(['#4a4a4a', '#d4af37', '#06b6d4', '#9dc183', '#2c3e6b']);
+        this.color = color || (function(p){ return p[random(0, p.length - 1)]; })(['#8b5cf6', '#ec4899', '#3b82f6', '#a78bfa', '#312e81']);
         this.alpha = alpha || random(0.3, 1);
         this.angle = angle || random(0, 360);
         this.scale = scale || 0.1;
@@ -611,7 +611,7 @@
         this.tree = tree;
 
         var scale = scale || 1
-        var color = '#d4af37';
+        var color = '#ec4899';
 
         this.heart = {
             point  : point,
@@ -993,7 +993,7 @@
             var ctx = s.tree.ctx;
             ctx.save();
         	ctx.beginPath();
-        	ctx.fillStyle = '#3a3a3a';
+        	ctx.fillStyle = '#4c1d95';
             // ctx.shadowColor = 'rgb(35, 31, 32)';
             ctx.shadowBlur = 2;
         	ctx.moveTo(p.x, p.y);
@@ -1007,7 +1007,7 @@
     Bloom = function(tree, point, figure, color, alpha, angle, scale, place, speed) {
         this.tree = tree;
         this.point = point;
-        this.color = color || (function(p){ return p[random(0, p.length - 1)]; })(['#4a4a4a', '#d4af37', '#06b6d4', '#9dc183', '#2c3e6b']);
+        this.color = color || (function(p){ return p[random(0, p.length - 1)]; })(['#8b5cf6', '#ec4899', '#3b82f6', '#a78bfa', '#312e81']);
         this.alpha = alpha || random(0.3, 1);
         this.angle = angle || random(0, 360);
         this.scale = scale || 0.1;
