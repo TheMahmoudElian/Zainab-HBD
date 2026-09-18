@@ -1,14 +1,14 @@
 body {
   margin: 0;
   padding: 0;
-  background: radial-gradient(circle at 50% 30%, #0b1220 0%, #000000 70%);
+  background: radial-gradient(circle at 50% 30%, #150826 0%, #000000 70%);
   color: #eaeaea;
   font-size: 14px;
   font-family: 'Cinzel', 'Georgia', serif;
   overflow: auto;
 }
 a {
-  color: #d4af37;
+  color: #c084fc;
   font-size: 14px;
 }
 #main {
@@ -31,14 +31,14 @@ a {
 }
 #code {
   display: none;
-  color: #d4af37;
+  color: #f472b6;
   font-size: 16px;
   margin-top: 70px;
   line-height: 2;
   font-size: larger;
   font-weight: bolder;
   letter-spacing: 0.5px;
-  text-shadow: 0 0 12px rgba(212, 175, 55, 0.35);
+  text-shadow: 0 0 12px rgba(139, 92, 246, 0.45);
 }
 #clock-box {
   position: absolute;
@@ -46,7 +46,7 @@ a {
   top: 550px;
   font-size: 28px;
   display: none;
-  color: #06b6d4;
+  color: #60a5fa;
   letter-spacing: 1px;
 }
 #clock-box a {
